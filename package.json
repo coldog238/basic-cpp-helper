@@ -1,0 +1,22 @@
+{
+    "name": "cpp-snippets-helper",
+    "displayName": "C++ Helper",
+    "description": "Easy snippets for C++ - created for laboratory work",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": ["Snippets"],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/cpp.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ваш-логин/cpp-snippets-helper"
+    }
+}
