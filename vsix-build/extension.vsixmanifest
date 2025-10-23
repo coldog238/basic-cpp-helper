@@ -1,0 +1,15 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+    <Metadata>
+        <Identity Id="basic-cpp-helper" Version="1.0.0" Publisher="zhukovm3120" Language="en-US"/>
+        <DisplayName>Basic C++ Helper</DisplayName>
+        <Description>Простые сниппеты для C++ - создано для лабораторной работы</Description>
+        <Tags>C++, snippets, helper</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+    </Installation>
+    <Dependencies/>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="package.json" Address="package.json"/>
+    </Assets>
+</PackageManifest>
